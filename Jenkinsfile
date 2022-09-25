@@ -28,6 +28,12 @@ pipeline {
       }
     }
 
+    stage('Done') {
+      steps {
+        sleep 10
+      }
+    }
+
   }
   tools {
     nodejs 'nodejs'
